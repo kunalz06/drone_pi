@@ -1,0 +1,202 @@
+[0.000000] (-) TimerEvent: {}
+[0.002010] (drone_behavior_tree) JobQueued: {'identifier': 'drone_behavior_tree', 'dependencies': OrderedDict()}
+[0.002258] (drone_behavior_tree) JobStarted: {'identifier': 'drone_behavior_tree'}
+[0.019257] (drone_behavior_tree) JobProgress: {'identifier': 'drone_behavior_tree', 'progress': 'cmake'}
+[0.021648] (drone_behavior_tree) JobProgress: {'identifier': 'drone_behavior_tree', 'progress': 'build'}
+[0.023021] (drone_behavior_tree) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/kunal/Desktop/ad/arena_drone_ws/build/drone_behavior_tree', '--', '-j12', '-l12'], 'cwd': '/home/kunal/Desktop/ad/arena_drone_ws/build/drone_behavior_tree', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'kunal', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kunal/drone_ws/install/px4_ros_com/lib:/home/kunal/drone_ws/install/px4_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'HOME': '/home/kunal', 'CHROME_DESKTOP': 'antigravity.desktop', 'OLDPWD': '/home/kunal/Desktop/ad', 'TERM_PROGRAM_VERSION': '1.107.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '2375', 'SYSTEMD_EXEC_PID': '2823', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '13833', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/kunal/drone_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kunal', 'JOURNAL_STREAM': '9:30926', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'GEMINI_CLI_IDE_WORKSPACE_PATH': '/home/kunal/Desktop/ad', 'USERNAME': 'kunal', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'GEMINI_CLI_IDE_SERVER_PORT': '35053', 'WINDOWPATH': '2', 'PATH': '/home/kunal/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/kunal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/victus:@/tmp/.ICE-unix/2779,unix/victus:/tmp/.ICE-unix/2779', 'INVOCATION_ID': 'bac90686f80245039e17cac96669d0fd', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/kunal/.config/Antigravity/User/workspaceStorage/3876cf3def28cee183ab17a40c736c7c/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-391fe662c8.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kunal/drone_ws/install/px4_ros_com:/home/kunal/drone_ws/install/px4_msgs:/home/kunal/drone_ws/install/drone_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'GEMINI_CLI_IDE_AUTH_TOKEN': '50902fa9-67fb-4378-b1a2-251fa7312735', 'PWD': '/home/kunal/Desktop/ad/arena_drone_ws/build/drone_behavior_tree', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kunal/drone_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/kunal/drone_ws/install/px4_msgs/lib/python3.12/site-packages:/home/kunal/drone_ws/install/drone_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/kunal/drone_ws/install/px4_ros_com:/home/kunal/drone_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kunal/drone_ws/install/drone_control:/opt/ros/jazzy'}), 'shell': False}
+[0.097902] (-) TimerEvent: {}
+[0.198921] (-) TimerEvent: {}
+[0.200320] (drone_behavior_tree) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/bt_executor.dir/src/bt_executor.cpp.o\x1b[0m\n'}
+[0.299570] (-) TimerEvent: {}
+[0.400100] (-) TimerEvent: {}
+[0.500790] (-) TimerEvent: {}
+[0.601597] (-) TimerEvent: {}
+[0.702375] (-) TimerEvent: {}
+[0.803268] (-) TimerEvent: {}
+[0.904448] (-) TimerEvent: {}
+[1.010846] (-) TimerEvent: {}
+[1.112019] (-) TimerEvent: {}
+[1.213264] (-) TimerEvent: {}
+[1.314873] (-) TimerEvent: {}
+[1.415644] (-) TimerEvent: {}
+[1.516745] (-) TimerEvent: {}
+[1.617415] (-) TimerEvent: {}
+[1.718184] (-) TimerEvent: {}
+[1.819316] (-) TimerEvent: {}
+[1.921411] (-) TimerEvent: {}
+[2.022203] (-) TimerEvent: {}
+[2.122585] (-) TimerEvent: {}
+[2.223061] (-) TimerEvent: {}
+[2.323475] (-) TimerEvent: {}
+[2.424447] (-) TimerEvent: {}
+[2.525491] (-) TimerEvent: {}
+[2.626347] (-) TimerEvent: {}
+[2.727403] (-) TimerEvent: {}
+[2.828574] (-) TimerEvent: {}
+[2.929537] (-) TimerEvent: {}
+[3.030414] (-) TimerEvent: {}
+[3.131136] (-) TimerEvent: {}
+[3.232333] (-) TimerEvent: {}
+[3.333975] (-) TimerEvent: {}
+[3.435310] (-) TimerEvent: {}
+[3.536433] (-) TimerEvent: {}
+[3.638879] (-) TimerEvent: {}
+[3.740393] (-) TimerEvent: {}
+[3.840957] (-) TimerEvent: {}
+[3.941958] (-) TimerEvent: {}
+[4.042667] (-) TimerEvent: {}
+[4.143137] (-) TimerEvent: {}
+[4.243700] (-) TimerEvent: {}
+[4.344856] (-) TimerEvent: {}
+[4.446117] (-) TimerEvent: {}
+[4.547343] (-) TimerEvent: {}
+[4.648123] (-) TimerEvent: {}
+[4.748660] (-) TimerEvent: {}
+[4.849919] (-) TimerEvent: {}
+[4.950625] (-) TimerEvent: {}
+[5.052204] (-) TimerEvent: {}
+[5.152880] (-) TimerEvent: {}
+[5.254123] (-) TimerEvent: {}
+[5.355238] (-) TimerEvent: {}
+[5.456092] (-) TimerEvent: {}
+[5.557495] (-) TimerEvent: {}
+[5.658354] (-) TimerEvent: {}
+[5.759445] (-) TimerEvent: {}
+[5.860470] (-) TimerEvent: {}
+[5.961409] (-) TimerEvent: {}
+[6.062778] (-) TimerEvent: {}
+[6.163915] (-) TimerEvent: {}
+[6.265209] (-) TimerEvent: {}
+[6.366146] (-) TimerEvent: {}
+[6.466930] (-) TimerEvent: {}
+[6.567612] (-) TimerEvent: {}
+[6.668969] (-) TimerEvent: {}
+[6.769972] (-) TimerEvent: {}
+[6.870601] (-) TimerEvent: {}
+[6.971134] (-) TimerEvent: {}
+[7.071831] (-) TimerEvent: {}
+[7.172343] (-) TimerEvent: {}
+[7.274333] (-) TimerEvent: {}
+[7.375031] (-) TimerEvent: {}
+[7.479552] (-) TimerEvent: {}
+[7.580790] (-) TimerEvent: {}
+[7.682367] (-) TimerEvent: {}
+[7.783546] (-) TimerEvent: {}
+[7.884214] (-) TimerEvent: {}
+[7.984853] (-) TimerEvent: {}
+[8.085937] (-) TimerEvent: {}
+[8.187369] (-) TimerEvent: {}
+[8.288260] (-) TimerEvent: {}
+[8.388919] (-) TimerEvent: {}
+[8.490125] (-) TimerEvent: {}
+[8.591285] (-) TimerEvent: {}
+[8.692483] (-) TimerEvent: {}
+[8.793705] (-) TimerEvent: {}
+[8.894282] (-) TimerEvent: {}
+[8.995086] (-) TimerEvent: {}
+[9.095784] (-) TimerEvent: {}
+[9.196729] (-) TimerEvent: {}
+[9.297538] (-) TimerEvent: {}
+[9.398374] (-) TimerEvent: {}
+[9.499409] (-) TimerEvent: {}
+[9.600276] (-) TimerEvent: {}
+[9.701319] (-) TimerEvent: {}
+[9.802253] (-) TimerEvent: {}
+[9.903240] (-) TimerEvent: {}
+[10.004403] (-) TimerEvent: {}
+[10.105283] (-) TimerEvent: {}
+[10.206177] (-) TimerEvent: {}
+[10.307321] (-) TimerEvent: {}
+[10.407968] (-) TimerEvent: {}
+[10.508690] (-) TimerEvent: {}
+[10.609558] (-) TimerEvent: {}
+[10.711087] (-) TimerEvent: {}
+[10.812850] (-) TimerEvent: {}
+[10.913893] (-) TimerEvent: {}
+[11.014880] (-) TimerEvent: {}
+[11.115815] (-) TimerEvent: {}
+[11.217178] (-) TimerEvent: {}
+[11.318188] (-) TimerEvent: {}
+[11.418852] (-) TimerEvent: {}
+[11.519519] (-) TimerEvent: {}
+[11.620371] (-) TimerEvent: {}
+[11.721314] (-) TimerEvent: {}
+[11.822563] (-) TimerEvent: {}
+[11.923422] (-) TimerEvent: {}
+[12.024577] (-) TimerEvent: {}
+[12.125503] (-) TimerEvent: {}
+[12.226139] (-) TimerEvent: {}
+[12.327407] (-) TimerEvent: {}
+[12.428443] (-) TimerEvent: {}
+[12.528907] (-) TimerEvent: {}
+[12.629517] (-) TimerEvent: {}
+[12.730091] (-) TimerEvent: {}
+[12.830578] (-) TimerEvent: {}
+[12.931431] (-) TimerEvent: {}
+[13.032684] (-) TimerEvent: {}
+[13.133898] (-) TimerEvent: {}
+[13.234989] (-) TimerEvent: {}
+[13.335432] (-) TimerEvent: {}
+[13.435979] (-) TimerEvent: {}
+[13.536624] (-) TimerEvent: {}
+[13.637386] (-) TimerEvent: {}
+[13.737892] (-) TimerEvent: {}
+[13.838321] (-) TimerEvent: {}
+[13.939110] (-) TimerEvent: {}
+[14.040341] (-) TimerEvent: {}
+[14.140792] (-) TimerEvent: {}
+[14.241344] (-) TimerEvent: {}
+[14.342073] (-) TimerEvent: {}
+[14.442465] (-) TimerEvent: {}
+[14.543255] (-) TimerEvent: {}
+[14.643721] (-) TimerEvent: {}
+[14.744286] (-) TimerEvent: {}
+[14.844734] (-) TimerEvent: {}
+[14.945571] (-) TimerEvent: {}
+[15.046119] (-) TimerEvent: {}
+[15.146786] (-) TimerEvent: {}
+[15.247144] (-) TimerEvent: {}
+[15.347941] (-) TimerEvent: {}
+[15.448837] (-) TimerEvent: {}
+[15.549659] (-) TimerEvent: {}
+[15.650222] (-) TimerEvent: {}
+[15.751063] (-) TimerEvent: {}
+[15.794865] (drone_behavior_tree) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable bt_executor\x1b[0m\n'}
+[15.851284] (-) TimerEvent: {}
+[15.952620] (-) TimerEvent: {}
+[16.053181] (-) TimerEvent: {}
+[16.154123] (-) TimerEvent: {}
+[16.254825] (-) TimerEvent: {}
+[16.355480] (-) TimerEvent: {}
+[16.401994] (drone_behavior_tree) StdoutLine: {'line': b'[100%] Built target bt_executor\n'}
+[16.423716] (drone_behavior_tree) CommandEnded: {'returncode': 0}
+[16.425205] (drone_behavior_tree) JobProgress: {'identifier': 'drone_behavior_tree', 'progress': 'install'}
+[16.441284] (drone_behavior_tree) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/kunal/Desktop/ad/arena_drone_ws/build/drone_behavior_tree'], 'cwd': '/home/kunal/Desktop/ad/arena_drone_ws/build/drone_behavior_tree', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'kunal', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/kunal/drone_ws/install/px4_ros_com/lib:/home/kunal/drone_ws/install/px4_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'ANTIGRAVITY_CLI_ALIAS': 'agy', 'HOME': '/home/kunal', 'CHROME_DESKTOP': 'antigravity.desktop', 'OLDPWD': '/home/kunal/Desktop/ad', 'TERM_PROGRAM_VERSION': '1.107.0', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/antigravity.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'PAGER': 'cat', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/antigravity/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/antigravity/antigravity', 'MANAGERPID': '2375', 'SYSTEMD_EXEC_PID': '2823', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ANTIGRAVITY_AGENT': '1', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '13833', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/kunal/drone_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'kunal', 'JOURNAL_STREAM': '9:30926', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'GEMINI_CLI_IDE_WORKSPACE_PATH': '/home/kunal/Desktop/ad', 'USERNAME': 'kunal', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'GEMINI_CLI_IDE_SERVER_PORT': '35053', 'WINDOWPATH': '2', 'PATH': '/home/kunal/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/kunal/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/victus:@/tmp/.ICE-unix/2779,unix/victus:/tmp/.ICE-unix/2779', 'INVOCATION_ID': 'bac90686f80245039e17cac96669d0fd', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/kunal/.config/Antigravity/User/workspaceStorage/3876cf3def28cee183ab17a40c736c7c/ms-python.python/pythonrc.py', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SBX_CHROME_API_RQ': '1', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-391fe662c8.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/kunal/drone_ws/install/px4_ros_com:/home/kunal/drone_ws/install/px4_msgs:/home/kunal/drone_ws/install/drone_control:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'GEMINI_CLI_IDE_AUTH_TOKEN': '50902fa9-67fb-4378-b1a2-251fa7312735', 'PWD': '/home/kunal/Desktop/ad/arena_drone_ws/build/drone_behavior_tree', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/kunal/drone_ws/install/px4_ros_com/lib/python3.12/site-packages:/home/kunal/drone_ws/install/px4_msgs/lib/python3.12/site-packages:/home/kunal/drone_ws/install/drone_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/kunal/drone_ws/install/px4_ros_com:/home/kunal/drone_ws/install/px4_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/kunal/drone_ws/install/drone_control:/opt/ros/jazzy'}), 'shell': False}
+[16.455684] (-) TimerEvent: {}
+[16.459912] (drone_behavior_tree) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.460256] (drone_behavior_tree) StdoutLine: {'line': b'-- Installing: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/lib/drone_behavior_tree/bt_executor\n'}
+[16.462053] (drone_behavior_tree) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/lib/drone_behavior_tree/bt_executor" to ""\n'}
+[16.462493] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/trees\n'}
+[16.463102] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/trees/motor_test_tree.xml\n'}
+[16.463682] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/launch\n'}
+[16.464185] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/launch/motor_test.launch.py\n'}
+[16.464461] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/launch/__pycache__\n'}
+[16.464594] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/launch/__pycache__/motor_test.launch.cpython-312.pyc\n'}
+[16.464702] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/ament_index/resource_index/package_run_dependencies/drone_behavior_tree\n'}
+[16.464821] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/ament_index/resource_index/parent_prefix_path/drone_behavior_tree\n'}
+[16.464951] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/environment/ament_prefix_path.sh\n'}
+[16.465094] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/environment/ament_prefix_path.dsv\n'}
+[16.465254] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/environment/path.sh\n'}
+[16.465377] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/environment/path.dsv\n'}
+[16.465496] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/local_setup.bash\n'}
+[16.465614] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/local_setup.sh\n'}
+[16.465701] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/local_setup.zsh\n'}
+[16.465786] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/local_setup.dsv\n'}
+[16.465863] (drone_behavior_tree) StdoutLine: {'line': b'-- Installing: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/package.dsv\n'}
+[16.465942] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/ament_index/resource_index/packages/drone_behavior_tree\n'}
+[16.466040] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/cmake/drone_behavior_treeConfig.cmake\n'}
+[16.466132] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/cmake/drone_behavior_treeConfig-version.cmake\n'}
+[16.466213] (drone_behavior_tree) StdoutLine: {'line': b'-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/package.xml\n'}
+[16.468262] (drone_behavior_tree) CommandEnded: {'returncode': 0}
+[16.493012] (drone_behavior_tree) JobEnded: {'identifier': 'drone_behavior_tree', 'rc': 0}
+[16.494273] (-) EventReactorShutdown: {}

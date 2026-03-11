@@ -1,0 +1,28 @@
+In file included from [01m[K/home/kunal/Desktop/ad/arena_drone_ws/src/drone_behavior_tree/src/bt_executor.cpp:9[m[K:
+[01m[K/home/kunal/Desktop/ad/arena_drone_ws/src/drone_behavior_tree/include/drone_behavior_tree/nodes/arm_drone.hpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus ArmDroneNode::[01;32m[KonStart[m[K()[m[K’:
+[01m[K/home/kunal/Desktop/ad/arena_drone_ws/src/drone_behavior_tree/include/drone_behavior_tree/nodes/arm_drone.hpp:40:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId::[01;32m[Koperator rclcpp::Client<ServiceT>::SharedFuture[m[K() [35m[K[with ServiceT = mavros_msgs::srv::CommandBool; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<mavros_msgs::srv::CommandBool_Response_<std::allocator<void> > > >][m[K[m[K’ is deprecated: FutureAndRequestId: use .future.share() instead of an implicit conversion [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   40 | async_send_request(request[01;35m[K)[m[K;
+      |                           [01;35m[K^[m[K
+
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/kunal/Desktop/ad/arena_drone_ws/src/drone_behavior_tree/src/bt_executor.cpp:6[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:446:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  446 |     [01;36m[Koperator[m[K SharedFuture() {return this->future.share();}
+      |     [01;36m[K^~~~~~~~[m[K
+In file included from [01m[K/home/kunal/Desktop/ad/arena_drone_ws/src/drone_behavior_tree/src/bt_executor.cpp:10[m[K:
+[01m[K/home/kunal/Desktop/ad/arena_drone_ws/src/drone_behavior_tree/include/drone_behavior_tree/nodes/motor_test.hpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus MotorTestNode::[01;32m[KonStart[m[K()[m[K’:
+[01m[K/home/kunal/Desktop/ad/arena_drone_ws/src/drone_behavior_tree/include/drone_behavior_tree/nodes/motor_test.hpp:64:50:[m[K [01;35m[Kwarning: [m[K‘[01m[Krclcpp::Client<ServiceT>::FutureAndRequestId::[01;32m[Koperator rclcpp::Client<ServiceT>::SharedFuture[m[K() [35m[K[with ServiceT = mavros_msgs::srv::CommandLong; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<mavros_msgs::srv::CommandLong_Response_<std::allocator<void> > > >][m[K[m[K’ is deprecated: FutureAndRequestId: use .future.share() instead of an implicit conversion [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   64 | async_send_request(request[01;35m[K)[m[K;
+      |                           [01;35m[K^[m[K
+
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/client.hpp:446:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  446 |     [01;36m[Koperator[m[K SharedFuture() {return this->future.share();}
+      |     [01;36m[K^~~~~~~~[m[K

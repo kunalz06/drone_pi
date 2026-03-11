@@ -1,0 +1,31 @@
+[0.021s] Invoking command in '/home/kunal/Desktop/ad/arena_drone_ws/build/drone_behavior_tree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal/drone_ws/install/drone_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal/Desktop/ad/arena_drone_ws/build/drone_behavior_tree -- -j12 -l12
+[0.282s] [ 50%] [32mBuilding CXX object CMakeFiles/bt_executor.dir/src/bt_executor.cpp.o[0m
+[10.063s] [100%] [32m[1mLinking CXX executable bt_executor[0m
+[10.819s] [100%] Built target bt_executor
+[10.851s] Invoked command in '/home/kunal/Desktop/ad/arena_drone_ws/build/drone_behavior_tree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal/drone_ws/install/drone_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/kunal/Desktop/ad/arena_drone_ws/build/drone_behavior_tree -- -j12 -l12
+[10.905s] Invoking command in '/home/kunal/Desktop/ad/arena_drone_ws/build/drone_behavior_tree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal/drone_ws/install/drone_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal/Desktop/ad/arena_drone_ws/build/drone_behavior_tree
+[10.928s] -- Install configuration: ""
+[10.933s] -- Installing: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/lib/drone_behavior_tree/bt_executor
+[10.955s] -- Set non-toolchain portion of runtime path of "/home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/lib/drone_behavior_tree/bt_executor" to ""
+[10.955s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/trees
+[10.956s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/trees/motor_test_tree.xml
+[10.956s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/launch
+[10.957s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/launch/motor_test.launch.py
+[10.957s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/launch/__pycache__
+[10.964s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/launch/__pycache__/motor_test.launch.cpython-312.pyc
+[10.968s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/ament_index/resource_index/package_run_dependencies/drone_behavior_tree
+[10.969s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/ament_index/resource_index/parent_prefix_path/drone_behavior_tree
+[10.969s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/environment/ament_prefix_path.sh
+[10.969s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/environment/ament_prefix_path.dsv
+[10.969s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/environment/path.sh
+[10.970s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/environment/path.dsv
+[10.970s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/local_setup.bash
+[10.970s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/local_setup.sh
+[10.971s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/local_setup.zsh
+[10.971s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/local_setup.dsv
+[10.971s] -- Installing: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/package.dsv
+[10.972s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/ament_index/resource_index/packages/drone_behavior_tree
+[10.972s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/cmake/drone_behavior_treeConfig.cmake
+[10.972s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/cmake/drone_behavior_treeConfig-version.cmake
+[10.972s] -- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/package.xml
+[10.977s] Invoked command in '/home/kunal/Desktop/ad/arena_drone_ws/build/drone_behavior_tree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kunal/drone_ws/install/drone_control:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/kunal/Desktop/ad/arena_drone_ws/build/drone_behavior_tree

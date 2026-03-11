@@ -1,0 +1,24 @@
+[100%] Built target bt_executor
+-- Install configuration: ""
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/lib/drone_behavior_tree/bt_executor
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/trees
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/trees/motor_test_tree.xml
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/launch
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/launch/motor_test.launch.py
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/launch/__pycache__
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/launch/__pycache__/motor_test.launch.cpython-312.pyc
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/ament_index/resource_index/package_run_dependencies/drone_behavior_tree
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/ament_index/resource_index/parent_prefix_path/drone_behavior_tree
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/environment/ament_prefix_path.sh
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/environment/path.sh
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/environment/path.dsv
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/local_setup.bash
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/local_setup.sh
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/local_setup.zsh
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/local_setup.dsv
+-- Installing: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/package.dsv
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/ament_index/resource_index/packages/drone_behavior_tree
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/cmake/drone_behavior_treeConfig.cmake
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/cmake/drone_behavior_treeConfig-version.cmake
+-- Up-to-date: /home/kunal/Desktop/ad/arena_drone_ws/install/drone_behavior_tree/share/drone_behavior_tree/package.xml
