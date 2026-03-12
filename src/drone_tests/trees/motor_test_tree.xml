@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root BTCPP_format="4">
+    <BehaviorTree ID="MainTree">
+        <!-- Sequence fails if any child fails, and only finishes when all succeed -->
+        <Sequence>
+            <!-- 1. Arm the Drone for Motor Testing (Bypasses RC checks usually) -->
+            <ArmDrone value="true" />
+            
+            <!-- 2. Test motors sequentially: throttle 15%, duration 30 seconds each -->
+            <!-- Note: Pixhawk motor numbering: 1=FrontRight, 2=RearLeft, 3=FrontLeft, 4=RearRight -->
+            <MotorTest motor="1" throttle="15" duration="30" />
+            <MotorTest motor="2" throttle="15" duration="30" />
+            <MotorTest motor="3" throttle="15" duration="30" />
+            <MotorTest motor="4" throttle="15" duration="30" />
+            
+            <!-- 3. Disarm the Drone safely -->
+            <ArmDrone value="false" />
+        </Sequence>
+    </BehaviorTree>
+</root>

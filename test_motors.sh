@@ -29,7 +29,7 @@ source "$SCRIPT_DIR/install/setup.bash" || true
 
 # Run the launch file and tee the output
 # (stdbuf is used to disable output buffering so we see logs in realtime)
-stdbuf -oL -eL ros2 launch drone_behavior_tree motor_test.launch.py 2>&1 | tee "$LOG_FILE"
+stdbuf -oL -eL ros2 launch drone_tests motor_test.launch.py 2>&1 | tee "$LOG_FILE"
 
 # Create a symlink to the latest log for easy access
 ln -sf "$LOG_FILE" "$LOG_DIR/motor_test_latest.log"

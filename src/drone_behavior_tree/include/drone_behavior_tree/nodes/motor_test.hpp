@@ -45,6 +45,8 @@ public:
     getInput("throttle", throttle);
     getInput("duration", duration);
 
+    motor_ = motor; // Store for use in onRunning logs
+
     // MAV_CMD_DO_MOTOR_TEST = 209
     auto request = std::make_shared<mavros_msgs::srv::CommandLong::Request>();
     request->command = 209;
